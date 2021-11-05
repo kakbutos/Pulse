@@ -1,0 +1,43 @@
+
+.edge {
+    background-color: white;
+    min-height: 473px;
+    &__wrapper{
+        margin-top: 65px;
+        display:flex;
+        justify-content: space-between;
+    }
+    &__title{
+        margin-top: 73px;
+        font-weight: 700;
+        font-size: 30px;
+        text-align: center;
+        color: #0D0D0D;
+    }
+    &__descr{
+        font-weight: 700;
+        font-size: 14px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    &__maindescr{
+        font-weight: 700;
+        font-size: 18px;
+        color: #0D0D0D;
+        margin-top: 35px;
+    }
+    &__icons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    &__icon{
+        &_animated{
+            animation-name: heartbeat;
+            animation-duration: 2s;
+            animation-timing-function: ease;
+            animation-iteration-count: infinite;
+        }
+    }
+}
