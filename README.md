@@ -1,1 +1,1 @@
-https://kakbutos.github.io/Pulse/
+Верстка сайта. Ссылка: https://kakbutos.github.io/Pulse/
